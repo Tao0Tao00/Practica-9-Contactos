@@ -1,0 +1,20 @@
+1. Lee la documentación del método System.out.println. ¿De qué clase es instancia el objeto out? ¿Cuántas veces está sobre-
+cargado el método println, da algunos ejemplos?
+out pertenece a java.io.PrintStream como una instancia, es un mienbro estatico y publico de la clase System donde 
+representa el flujo de la salida estandar a la consola
+Println igual pertenece a PrintStream y es un metodo para System.out.Println, esta esta sobrecargada 10 veces
+para los distintios tipos de datos que se encuentran en java. Algunos ejemplos son:
+    void println(boolean x) - Imprime un booleano y termina una linea
+    void println(char[] x) - Imprime una serie de caracteres y termina la linea
+    void println() - termina la linea actual, escribiendo la cadena separadora de la linea
+    void println(Object x) - Imprime un objeto y termina la linea
+    void println(long x) - Imprime una linea larga y termina la linea
+
+2. Explica ¿por qué hay una versión de println por cada tipo primitivo de Java?
+Porque no se puede generalizar todos los dato primitivos en un solo println, por lo que para una mejor optimizacion
+y que los datos se manejen de una manera correcta existen diferentes metodos para los datos primitivos
+
+3. Al buscar por nombre ¿qué necesitarías hacer para devolver todos los registros que contengan la cadena indicada 
+en lugar de sólo el primero?
+Seria creando un objeto de ListaSL donde este verifique toda la lista de contactos y si hay una que coincida con la lista, se
+debe devolver esta 

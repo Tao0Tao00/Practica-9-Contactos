@@ -1,0 +1,1 @@
+Añadir registros para que la lista tenga informacion sobre los contactos y sus datos y asi imprimir la lista de contactos.
